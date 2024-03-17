@@ -44,8 +44,6 @@ const SpecsPage = () => {
     fetchData();
   }, []);
 
-  console.log(specs);
-
   return (
     <SpecsPageContainer>
       <ButtonsContainer>

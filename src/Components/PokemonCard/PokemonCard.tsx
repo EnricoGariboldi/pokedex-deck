@@ -31,8 +31,6 @@ const PokemonCard: React.FC<Props> = ({
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  console.log(pokemonDetails)
-
   useEffect(() => {
     if (searchPage && pokemonData) {
       const fetchData = async () => {
