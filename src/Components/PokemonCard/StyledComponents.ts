@@ -75,7 +75,7 @@ font-weight: 600;
 font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
   "Lucida Sans", Arial, sans-serif;
 background-color: #228000;
-border: 1px solid #228000;
+border: 1px solid black;
 color: white;
 border-radius: 10px;
 cursor: pointer;
