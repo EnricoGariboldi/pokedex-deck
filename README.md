@@ -6,9 +6,10 @@ By clicking on a Pokemon's name we are taken to its details page, where are foun
 ## Installing dependencies 
 
 First of all, clone the repository to your local IDE (Via Git Hub or git clone https://github.com/EnricoGariboldi/pokedex-deck.git).
+
 After cloning, you need to navigate into the project directory using:
 
-**cd <repository-name>**
+cd repository-name
 
 Then install all the dependencies using NPM:
 
@@ -23,3 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+## Known Bugs
+
+The image of some pokemons might not be retrieved due to absence on the database.
