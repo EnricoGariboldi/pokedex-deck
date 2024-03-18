@@ -47,7 +47,6 @@ export const DetailsColumn = styled.div`
 display: flex;
 flex-direction: column;
 gap: 5px;
-align-items: center;
 `;
 
 export const DetailsColumnTitle = styled.div`
