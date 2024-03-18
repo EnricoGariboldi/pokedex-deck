@@ -46,17 +46,16 @@ const MainPage = () => {
 
     const { value } = e.target;
     setSearchInput(value);
+    dispatch(setSearchValue(e.target.value))
 
     if (value.length >= 3) {
       let filteredPokemons = [];
       filteredPokemons = allPokemons.filter((pokemon: Pokemon) =>
         pokemon.name.toLowerCase().includes(e.target.value.toLowerCase())
       );
-      dispatch(setSearchValue(e.target.value))
       dispatch(setPokemonsList(filteredPokemons))
      
     } else {
-      dispatch(setSearchValue(""))
       dispatch(setPokemonsList([]))
     }
   };

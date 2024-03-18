@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SpecsPageContainer = styled.div`
 display: flex;
 flex-direction: column;
-gap: 50px;
+gap: 20px;
 `;
 
 export const GoToButton = styled.button`
